@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Demo Project" parallel="none">
+	<test name="Testing on Chrome">
+	 <parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="runner.TestRunnerCucumber">
+			</class>
+		</classes>
+	</test>
+</suite>
